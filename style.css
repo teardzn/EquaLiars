@@ -381,3 +381,95 @@ body {
   background: transparent;
   color: #8a0025;
 }
+
+
+
+@media (max-width: 768px) {
+
+
+  .header {
+    height: auto;
+    padding: 15px 20px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .nav-item {
+    font-size: 12px;
+  }
+
+ 
+  .logo {
+    width: 90%;
+  }
+
+  .motto {
+    font-size: 36px;
+    width: 90%;
+    white-space: normal;
+  }
+
+
+  .title,
+  .about-title {
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+
+  .MLCS-title {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+
+  .profile-img img {
+    width: 95%;
+  }
+
+
+  .space-150 {
+    height: 40px;
+  }
+
+  .space-300 {
+    height: 60px;
+  }
+
+  .profile,
+  .about {
+    padding: 30px 5%;
+  }
+
+  .button-area,
+  .contact-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .button,
+  .contact-button {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .about h3,
+  .contact-area h3 {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .back-to-top {
+    right: 15px;
+    bottom: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 9px;
+  }
+}
